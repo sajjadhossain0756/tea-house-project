@@ -85,6 +85,55 @@
 .hero-card i{
     color: #ff8235;
 }
+/* feature section styles start here */
+.feature-section{
+    margin: 40px 80px;
+}
+.feature-content{
+    margin: 40px auto;
+    text-align: center;
+    max-width: 800px;
+}
+.feature-content .title{
+    font-size: 45px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+.feature-content .description{
+    color: var(--dark-1);
+    margin: 20px 0px;
+}
+.feature-cards{
+    gap: 20px;
+}
+.feature-card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 260px;
+    background: linear-gradient(to top,#fff,#ddd6d6);
+    border-radius: 10px;
+    padding: 20px 25px;
+}
+.feature-card-image{
+    max-width: 140px;
+}
+.feature-card-image img{
+    width: 100%;
+}
+.feature-card-content{
+    margin-top: 20px;
+    text-align: center;
+}
+.feature-card-title{
+    font-size: 25px;
+    font-weight: 800;
+}
+.feature-card-content p{
+    color: var(--dark-1);
+    margin-top: 10px;
+}
+
 
 /* responsive styles for mobile device */
 @media screen and (max-width:576px) {
@@ -101,16 +150,45 @@
 .hero-card{
     bottom: 10px;
 }
+/* feature section styles start here */
+.feature-section{
+    margin: 20px;
+}
+.feature-content{
+    text-align: left;
+}
+.feature-content .title{
+    font-size: 32px;
+    font-weight: 900;
+}
+.feature-cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
     
 }
 
 /* responsive styles for medium device */
 @media screen and (min-width:577px) and (max-width:992px) {
 
-    /* hero image section styles start here */
-    .hero-section{
-        margin: 50px;
-        flex-direction: column;
-    }
+/* hero image section styles start here */
+.hero-section{
+    margin: 50px;
+    flex-direction: column;
+}
+/* feature section styles start here */
+.feature-section{
+    margin: 50px;
+}
+.feature-content{
+    text-align: left;
+}
+.feature-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
         
-    }
+}
