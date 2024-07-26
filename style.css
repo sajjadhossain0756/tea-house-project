@@ -320,6 +320,63 @@
     color: #1c1c1c;
     font-weight: 700;
 }
+/* footer section styles start here */
+.footer-section{
+    background-color: #ffefe9;
+    padding: 50px 80px;
+}
+.footer-top{
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-button{
+    align-items: center;
+    gap: 30px;
+}
+.footer-bottom{
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.footer-link h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer-bottom ul{
+    list-style: none;
+}
+.footer-bottom ul li{
+    margin-bottom: 10px;
+}
+.footer-bottom ul li a{
+    text-decoration: none;
+    color: var(--dark-1);
+}
+.footer-link .angle-right{
+    background-color: #ff240f;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.footer-link input{
+    border: none;
+    background-color: #ffefe9;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-link .social-link{
+    gap: 20px;
+    font-size: 32px;
+}
+.copy-right{
+    text-align: center;
+    color: var(--dark-1);
+}
 
 /* responsive styles for mobile device */
 @media screen and (max-width:576px) {
@@ -382,6 +439,31 @@
     justify-content: center;
     align-items: center;
 }
+/* footer section styles start here */
+.footer-section{
+    margin-top: 40px;
+    padding: 40px 20px 0px 20px;
+}
+.footer-bottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.footer-button{
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px;
+}
+.footer-btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+.footer-link .angle-right{
+    margin-left: -10px;
+}
     
 }
 
@@ -420,6 +502,25 @@
     justify-content: center;
     margin: 50px;
     padding: 60px 20px;
+}
+/* footer section styles start here */
+.footer-section{
+    margin-top: 40px;
+    padding: 40px 50px 0px 50px;
+}
+.footer-bottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+/* Event section styles start here */
+.event-section{
+    margin: 50px;
+}
+.event-card-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
         
 }
