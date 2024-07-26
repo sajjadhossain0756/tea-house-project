@@ -133,7 +133,67 @@
     color: var(--dark-1);
     margin-top: 10px;
 }
-
+/* great-tea section start here */
+.great-tea-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 40px 80px;
+    gap: 30px;
+    align-items: center;
+}
+.great-tea-left, .great-tea-right{
+    width: 45%;
+}
+.blank-div-1{
+    background-color: #ffe9e7;
+    width: 100%;
+    height: 135px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.blank-div-2{
+    background:linear-gradient(to left,#fff,#aaa3a3);
+    width: 100%;
+    height: 135px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.great-tea-images{
+    gap: 30px;
+    
+}
+.great-tea-image{
+    width: 100%;
+    height: 340px;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.great-tea-1{
+    background-color: #eef1eb;
+}
+.great-tea-2{
+    background-color: #fcf6e9;
+}
+.great-tea-image img{
+    width: 100%;
+    height: 100%;
+}
+.great-tea-content{
+    max-width: 580px;
+}
+.great-tea-content .title{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.great-tea-content .sub-title{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+.great-tea-content .description{
+    color: var(--dark-1);
+}
 
 /* responsive styles for mobile device */
 @media screen and (max-width:576px) {
@@ -167,6 +227,14 @@
     align-items: center;
     gap: 30px;
 }
+/* great-tea section start here */
+.great-tea-section{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 20px;
+    gap: 40px;
+    align-items: center;
+}
     
 }
 
@@ -189,6 +257,14 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
+}
+/* great-tea section start here */
+.great-tea-section{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 50px;
+    gap: 40px;
+    align-items: center;
 }
         
 }
